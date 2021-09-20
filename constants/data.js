@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "azzammi",
   name: "Muhammad Luthfi Azzammi",
   designation: "Backend Developer",
-  avatarUrl: "/avatar.png",
+  avatarUrl: "/avatar.jpg",
   email: "luthfi_azzammi@hotmail.com",
   phone: "+62 82110985076",
   address: "Bekasi, Jawa Barat, Indonesia",
