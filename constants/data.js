@@ -10,22 +10,17 @@ const userData = {
     {
       title: "Treetan",
       link: "https://treetan.com",
-      imgUrl: "/tmk.jpg",
+      imgUrl: "/Treetan.png",
     },
     {
       title: "TAS Accounting",
       link: "http://tas2019-176.com/",
-      imgUrl: "/placeholdertech.png",
-    },
-    {
-      title: "Portfolio",
-      link: "https://manuarora.in",
-      imgUrl: "/portfolio.png",
+      imgUrl: "/TASSystem.png",
     },
     {
       title: "Shabab Aqiqah",
       link: "https://shababaqiqah.com",
-      imgUrl: "/covidrescue.png",
+      imgUrl: "/ShababAqiqah.png",
     },
   ],
   about: {
@@ -41,7 +36,14 @@ const userData = {
   },
   experience: [
     {
-      title: "Web Developer",
+      title: "Undergraduate",
+      company: "STMIK Bani Saleh",
+      year: "2022",
+      companyLink: "https://stmik.banisaleh.ac.id/",
+      desc: "Major in System Information with a CGPA of 3.60. Nobody asks this but it's okay.",
+    },
+    {
+      title: "Backend Developer",
       company: "PT. Treetan Nusantara Network",
       year: "2021",
       companyLink: "https://treetan.com",
@@ -74,13 +76,6 @@ const userData = {
       year: "2016",
       companyLink: "https://angminsoftware.com",
       desc: "Acted as IT Support and Chief Of Everything",
-    },
-    {
-      title: "Bachelor Undergraduate",
-      company: "STMIK Bani Saleh",
-      year: "2022",
-      companyLink: "https://stmik.banisaleh.ac.id/",
-      desc: "Major in System Information with a CGPA of 3.60. Nobody asks this but it's okay.",
     },
     {
       title: "Vocational High School",
