@@ -30,7 +30,7 @@ const userData = {
   ],
   about: {
     title:
-      "I'm a software developer that still learning and will continue learning until my time come",
+      "I'm a software developer that still learning and will continue learning until my time is up",
     description: [
       `Developing solution has been my passion since my high school time, still remember my first hello world using c++ with Turbo C++ editor not working at first time make me challanged. And after my first hello world worked i'm so very happy and that's what i liked about developing program`,
       `My journey was not a smooth one, but finally in 2019 i got my chance to prove myself what i'm made of. From developing full-stack accounting system to develop marketplace Treetan from there i choose backend development for my focus `,
@@ -52,7 +52,7 @@ const userData = {
       company: "CV. MMUT",
       year: "2020",
       companyLink: "http://tas2019-176.com/",
-      desc: "Developed a marketplace for tailwind web components (React, HTML and Angular) and templates.",
+      desc: "Accounting software like Zahir, but more simple and easy to use",
     },
     {
       title: "PIC Customer Relationship Management",
