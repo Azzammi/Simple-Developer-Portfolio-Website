@@ -22,26 +22,24 @@ const userData = {
       link: "https://shababaqiqah.com",
       imgUrl: "/ShababAqiqah.png",
     },
+    {
+      title: "Indofishes",
+      link: "https://indofishes.com/",
+      imgUrl: "/Indofishes.png",
+    },
   ],
   about: {
     title:
-      "I'm a software developer that loves building products and web applications that impact millions of lives",
+      "I'm a software developer that still learning and will continue learning until my time come",
     description: [
-      `I've been developing full-stack application since I was 10 years old. I didn't know what full-stack meant at that time because the term was not coined back then. I'm so out of content right now that I'm literally crying writing this text since lorem text is so 2012 now.`,
-      `After learning HTML and struggling with CSS, I came up with a brilliant idea of using bootstrap so that I don't have to style everything by myself and - for obvious reasons - if you knew bootstrap, you were cool.`,
-      `But now, I'm a legend. I've been coding in React, Angular, Vue, Svelte, Node.js, Express, Fastify, MongoDB, MySQL, Bootstrap, Tailwind, C, C++, C#, Rust, Haskell, Perl, PHP, Assembly, Logo and YouDontKnowShit programming language etc to name a few. Although I barely know the syntax (Psst, Stack overflow!), I consider myself a Ninja developer I'm laughing right now.`,
+      `Developing solution has been my passion since my high school time, still remember my first hello world using c++ with Turbo C++ editor not working at first time make me challanged. And after my first hello world worked i'm so very happy and that's what i liked about developing program`,
+      `My journey was not a smooth one, but finally in 2019 i got my chance to prove myself what i'm made of. From developing full-stack accounting system to develop marketplace Treetan from there i choose backend development for my focus `,
+      `My first project was in school was using vb.net and then c#, and i continue to learning those two for 2 years. The first production code i write is using Native PHP. TailwindCSS, Bootstrap for my frontend and Laravel is my current primary weapon to tackle problem`
     ],
     currentProject: "Treetan",
     currentProjectUrl: "https://treetan.com",
   },
   experience: [
-    {
-      title: "Undergraduate",
-      company: "STMIK Bani Saleh",
-      year: "2022",
-      companyLink: "https://stmik.banisaleh.ac.id/",
-      desc: "Major in System Information with a CGPA of 3.60. Nobody asks this but it's okay.",
-    },
     {
       title: "Backend Developer",
       company: "PT. Treetan Nusantara Network",
