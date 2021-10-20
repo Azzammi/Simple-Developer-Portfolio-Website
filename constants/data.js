@@ -86,7 +86,8 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
+    // "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
+    "https://1drv.ms/b/s!Ak3Dg-D-Wc7Nh9hZNtcqzv9PM6uafw?e=PGLaEY",
   socialLinks: {
     instagram: "https://instagram.com/luthfi_azzammi",
     linkedin: "https://linkedin.com/in/azzammi",
