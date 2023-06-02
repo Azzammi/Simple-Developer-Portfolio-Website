@@ -27,6 +27,16 @@ const userData = {
       link: "https://indofishes.com/",
       imgUrl: "/Indofishes.png",
     },
+    {
+      title: "Human Resource Information System",
+      link: "https://hris.tas2019-176.com/",
+      imgUrl: "/hris.png",
+    },
+    {
+      title: "Hotel Management System",
+      link: "https://hotel.tas2019-176.com/",
+      imgUrl: "/hotel.png",
+    }
   ],
   about: {
     title:
