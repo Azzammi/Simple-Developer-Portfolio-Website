@@ -41,6 +41,13 @@ export default function ContainerBlock({ children, ...customMeta }) {
         {meta.date && (
           <meta property="article:published_time" content={meta.date} />
         )}
+        <script type="text/javascript">
+            (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "ionfh075bj");
+        </script>
       </Head>
       <main className="dark:bg-gray-800 w-full">
         <Navbar />
