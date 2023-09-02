@@ -24,7 +24,7 @@ const userData = {
     },
     {
       title: "Indofishes",
-      link: "https://indofishes.com/",
+      link: "https://vigorous-mccarthy-8717d1.netlify.app/",
       imgUrl: "/Indofishes.png",
     },
     {
