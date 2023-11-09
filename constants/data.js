@@ -8,6 +8,11 @@ const userData = {
   address: "Bekasi, Jawa Barat, Indonesia",
   projects: [
     {
+      title: "Treetan Mobile Apps",
+      link: "https://play.google.com/store/search?q=treetan&c=apps",
+      imgUrl: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/5f/57/a2/5f57a2ee-7834-c653-ae2a-d935a64eaf38/f3221bd3-b268-4f9d-89ed-be28ac987f15_banyak_pilihan_travel.jpg/300x0w.webp",
+    },
+    {
       title: "Treetan",
       link: "https://treetan.com",
       imgUrl: "/Treetan.png",
@@ -50,6 +55,13 @@ const userData = {
     currentProjectUrl: "https://treetan.com",
   },
   experience: [
+    {
+      title: "Lead IT Developer",
+      company: "PT. Treetan Nusantara Network",
+      year: "2023",
+      companyLink: "https://treetan.com",
+      desc: "Lead Product and IT Development",
+    },
     {
       title: "Backend Developer",
       company: "PT. Treetan Nusantara Network",

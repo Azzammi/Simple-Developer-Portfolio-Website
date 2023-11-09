@@ -1923,7 +1923,7 @@
     "iconv-lite" "0.4.24"
     "unpipe" "1.0.0"
 
-"react-dom@*", "react-dom@^16.13.1", "react-dom@^16.6.0 || ^17", "react-dom@^16.9.0 || ^17", "react-dom@17.x":
+"react-dom@*", "react-dom@^16.6.0 || ^17", "react-dom@^16.9.0 || ^17", "react-dom@^17.0.0", "react-dom@17.x":
   "integrity" "sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
   "version" "17.0.2"
@@ -1942,14 +1942,14 @@
   "resolved" "https://registry.npmjs.org/react-refresh/-/react-refresh-0.8.3.tgz"
   "version" "0.8.3"
 
-"react-rough-notation@^1.0.1":
-  "integrity" "sha512-UZQZ09XiZgbDRZFFP0qaFmTzs0rMKO929Npa5fHb2TOzLvKNEamaUtjRwjBx79cFzf+xMl/y8Y4HbYvvcKHQGQ=="
-  "resolved" "https://registry.npmjs.org/react-rough-notation/-/react-rough-notation-1.0.1.tgz"
-  "version" "1.0.1"
+"react-rough-notation@1.0.2":
+  "integrity" "sha512-nS3u90cZMQrOSzUbut28nrVgc1ixMaclDloqGi1Sw5BiY3DQNQPL8cVbIVoKUxwSiWugVM5GPf9ubL/h/avoKw=="
+  "resolved" "https://registry.npmjs.org/react-rough-notation/-/react-rough-notation-1.0.2.tgz"
+  "version" "1.0.2"
   dependencies:
     "rough-notation" "^0.4.0"
 
-"react@*", "react@^16.13.1", "react@^16.6.0 || ^17", "react@^16.8.0 || ^17.0.0", "react@^16.9.0 || ^17", "react@15.x.x || 16.x.x || 17.x.x", "react@17.0.2", "react@17.x":
+"react@*", "react@^16.6.0 || ^17", "react@^16.8.0 || ^17.0.0", "react@^16.9.0 || ^17", "react@^17.0.0", "react@15.x.x || 16.x.x || 17.x.x", "react@17.0.2", "react@17.x":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
