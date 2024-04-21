@@ -1,16 +1,23 @@
+import link from "next/link";
+
 const userData = {
   githubUsername: "azzammi",
   name: "Muhammad Luthfi Azzammi",
-  designation: "Backend Developer",
+  designation: "Product & Tech Enthusiast",
   avatarUrl: "/avatar.jpg",
   email: "luthfi_azzammi@hotmail.com",
   phone: "+62 82110985076",
   address: "Bekasi, Jawa Barat, Indonesia",
   projects: [
     {
+      title: "Rescue Removals Website",
+      link: "https://rescueremovals.com",
+      imgUrl: "/Rescue-Removals.png",
+    },
+    {
       title: "Treetan Mobile Apps",
       link: "https://play.google.com/store/search?q=treetan&c=apps",
-      imgUrl: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/5f/57/a2/5f57a2ee-7834-c653-ae2a-d935a64eaf38/f3221bd3-b268-4f9d-89ed-be28ac987f15_banyak_pilihan_travel.jpg/300x0w.webp",
+      imgUrl: "/treetan-mobile-apps.jpg",
     },
     {
       title: "Treetan",
@@ -45,11 +52,11 @@ const userData = {
   ],
   about: {
     title:
-      "I'm a software developer that still learning and will continue learning until my time is up",
+      "I'm a Project Manager and Software Developer that help businesses run and help company to achieve their goal",
     description: [
-      `Developing solution has been my passion since my high school time, still remember my first hello world using c++ with Turbo C++ editor not working at first time make me challanged. And after my first hello world worked i'm so very happy and that's what i liked about developing program`,
-      `My journey was not a smooth one, but finally in 2019 i got my chance to prove myself what i'm made of. From developing full-stack accounting system to develop marketplace Treetan from there i choose backend development for my focus `,
-      `My first project was in school was using vb.net and then c#, and i continue to learning those two for 2 years. The first production code i write is using Native PHP. TailwindCSS, Bootstrap for my frontend and Laravel is my current primary weapon to tackle problem`
+      `Currently Lead IT Project at PT. Treetan Nusantara Network`,
+      `Laravel Backend Developer with 2+ years of experience, 6 Months Experience as Programmer Staff , 1+ years Customer Relation Officer and 2+ years as Sales Administrator. With total 5+years of professional work experience have proven myself as problem solver, quick thinker and also skill to adapt with different situations. `,
+      `And also 3+ years Freelance Fullstack Developer that focused on backend development with PHP, JS especially using Laravel`
     ],
     currentProject: "Treetan",
     currentProjectUrl: "https://treetan.com",
@@ -63,6 +70,13 @@ const userData = {
       desc: "Lead Product and IT Development",
     },
     {
+      title: "Full Stack Developer",
+      company: "Physiomobile Sdn. Bhd.",
+      year: "2023",
+      companyLink: "https://physiomobile.com/physiotherapy/",
+      desc: "Develop webapp to support physiotherapist ",
+    },
+    {
       title: "Backend Developer",
       company: "PT. Treetan Nusantara Network",
       year: "2021",
@@ -70,7 +84,14 @@ const userData = {
       desc: "Contributed to web application - TDS - which is an E-Commerce for Trustful Halal Tour and Umroh.",
     },
     {
-      title: "Web Developer",
+      title: "Staff IT",
+      company: "PT. Global Trend Asia",
+      year: "2020",
+      companyLink: "https://www.globaltrendasia.com/",
+      desc: "IT Support Staff that provide help to running webapp",
+    },
+    {
+      title: "Full Stack Developer",
       company: "CV. MMUT",
       year: "2020",
       companyLink: "http://tas2019-176.com/",
@@ -98,16 +119,15 @@ const userData = {
       desc: "Acted as IT Support and Chief Of Everything",
     },
     {
-      title: "Vocational High School",
-      company: "SMK AL-Muhadjirin",
-      year: "2016",
-      companyLink: "https://smkalmuhadjirinbekasi.sch.id/",
-      desc: "Major in Software Engineering, graduate with good enough scores",
+      title: "Bachelor Degree",
+      company: "STMIK BANI SALEH",
+      year: "2018",
+      companyLink: "https://www.stmik.banisaleh.ac.id/view/",
+      desc: "Major in System Information, graduate with GPA Score 3.65",
     },
   ],
   resumeUrl:
-    // "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
-    "https://1drv.ms/b/s!Ak3Dg-D-Wc7Nh9hZNtcqzv9PM6uafw?e=PGLaEY",
+    "https://1drv.ms/b/s!Ak3Dg-D-Wc7Njaw1U1927ZddSKQ6YA?e=TddPXH",
   socialLinks: {
     instagram: "https://instagram.com/luthfi_azzammi",
     linkedin: "https://linkedin.com/in/azzammi",
