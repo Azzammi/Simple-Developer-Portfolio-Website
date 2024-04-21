@@ -8,8 +8,8 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: "Muhammad Luthfi Azzammi - Backend Developer, Reader",
-    description: `I've been developing websites for 2 years straight. Get in touch with me to know more.`,
+    title: "Muhammad Luthfi Azzammi - Developer, Project Manager",
+    description: `Explore the digital craftsmanship of a versatile Full Stack Developer whose hands-on experience in backend wizardry and project leadership brings ideas to life. Join the journey of innovation and collaborative success with Luthfi`,
     image: "/avatar.png",
     type: "website",
     ...customMeta,
@@ -22,11 +22,11 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
-          content={`https://yourwebsite.com${router.asPath}`}
+          content={`https://azzammi.com${router.asPath}`}
         />
         <link
           rel="canonical"
-          href={`https://yourwebsite.com${router.asPath}`}
+          href={`https://azzammi.com${router.asPath}`}
         />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Muhammad Luthfi Azzammi" />

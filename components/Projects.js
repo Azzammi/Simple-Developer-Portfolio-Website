@@ -1,5 +1,7 @@
 import React from "react";
 import userData from "@constants/data";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Projects() {
   return (
@@ -14,6 +16,7 @@ export default function Projects() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
           {userData.projects.map((proj, idx) => (
             <ProjectCard
+              key={proj.title}
               title={proj.title}
               link={proj.link}
               imgUrl={proj.imgUrl}
@@ -28,12 +31,14 @@ export default function Projects() {
 
 const ProjectCard = ({ title, link, imgUrl, number }) => {
   return (
-    <a href={link} className="w-full block shadow-2xl">
+    <Link href={link} className="w-full block shadow-2xl">
       <div className="relative overflow-hidden">
         <div className="h-72 object-cover">
-          <img
+          <Image
             src={imgUrl}
-            alt="portfolio"
+            alt={title}
+            width={500}
+            height={500}
             className="transform hover:scale-125 transition duration-2000 ease-out object-cover h-full w-full"
           />
         </div>
@@ -44,6 +49,6 @@ const ProjectCard = ({ title, link, imgUrl, number }) => {
           {number.length === 1 ? "0" + number : number}
         </h1>
       </div>
-    </a>
+    </Link>
   );
 };
