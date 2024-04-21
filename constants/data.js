@@ -3,7 +3,7 @@ import link from "next/link";
 const userData = {
   githubUsername: "azzammi",
   name: "Muhammad Luthfi Azzammi",
-  designation: "Backend Developer",
+  designation: "Product & Tech Enthusiast",
   avatarUrl: "/avatar.jpg",
   email: "luthfi_azzammi@hotmail.com",
   phone: "+62 82110985076",
@@ -127,7 +127,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://1drv.ms/b/s!Ak3Dg-D-Wc7Njaw1U1927ZddSKQ6YA?e=HBSg3i",
+    "https://1drv.ms/b/s!Ak3Dg-D-Wc7Njaw1U1927ZddSKQ6YA?e=TddPXH",
   socialLinks: {
     instagram: "https://instagram.com/luthfi_azzammi",
     linkedin: "https://linkedin.com/in/azzammi",

@@ -44,12 +44,12 @@ export default function FavouriteProjects() {
               <Image
                 src="/Treetan.png"
                 alt="Treetan"
-                width={500}
-                height={500}
+                width={1500}
+                height={1500}
                 className="transform hover:scale-125 transition duration-2000 ease-out"
                 priority
               />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
+              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-1000 rounded-md px-2">
                 Treetan
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
@@ -67,8 +67,8 @@ export default function FavouriteProjects() {
               <Image
                 src="/TASSystem.png"
                 alt="Accounting"
-                width={500}
-                height={500}
+                width={1000}
+                height={1000}
                 priority
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
